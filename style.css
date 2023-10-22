@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    color: whitesmoke;
+    background-image: url(https://images.unsplash.com/photo-1696489149180-bb53f8c38bdb?auto=format&fit=crop&q=80&w=1586&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.heading{
+    width:100%;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.timing{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    gap: 10px;
+    position: relative;
+}
+.hours,.minute,.second{
+    height:140px;
+    width:120px;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    position: relative;
+    border: 3px solid white;
+}
+.hrs-txt,.min-txt,.sec-txt{
+    width: 100%;
+    height: 2rem;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+}
+.Am-Pm{
+    height: 2rem;
+    width: 2.5rem;
+    margin-top: 2rem;
+    position: absolute;
+    bottom: 0;
+    right: 285px;
+    border: 2px solid white;
+    font-size: 16px;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .5);
+    
+}
