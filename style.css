@@ -16,7 +16,7 @@ body{
     justify-content: center; 
 }
 .container{
-    width: 80%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,9 +27,20 @@ body{
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2rem;
+    text-decoration: 3px underline;
 }
+
 .timing{
     width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    gap: 10px;
+    position: relative;
+}
+.clock{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,10 +73,9 @@ body{
 .Am-Pm{
     height: 2rem;
     width: 2.5rem;
-    margin-top: 2rem;
     position: absolute;
     bottom: 0;
-    right: 285px;
+    right: 20px;
     border: 2px solid white;
     font-size: 16px;
     display: flex;
