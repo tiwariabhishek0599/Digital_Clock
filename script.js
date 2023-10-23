@@ -9,6 +9,9 @@ setInterval(()=>{
     let m=currentTime.getMinutes()
     let s=currentTime.getSeconds()
     let hour_timig="";
+    if(h>=6 && h<18){
+        document.body.style.backgroundImage="url('https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?auto=format&fit=crop&q=80&w=1632&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')";
+    }
     if(h>=12){
      hour_timig="PM";
     }
